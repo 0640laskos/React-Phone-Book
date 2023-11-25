@@ -1,0 +1,170 @@
+/* PhoneBook.css */
+
+.App {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .Sidebar {
+    height: 100%;
+    border-right: 2px solid black;
+    width: 300px;
+    background: linear-gradient(#ffd39b,#eec591,#cdaa7d,#8b7355);
+  }
+  
+  .MainContent {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .SidebarHeader {
+    background-color: #deb887;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .SearchBox {
+    margin: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .SidebarButtons {
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+  }
+  
+  .SidebarButtons button {
+    margin-bottom: 0px;
+    padding: 10px;
+    width: 80%;
+    background-color: black;
+    color: white;
+  }
+  
+  .MainContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background: linear-gradient(#cd5c5c,#ff6a6a,#ee6363,#cd5555,#8b3a3a);
+  }
+  
+  .PersonCard {
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #eed5d2;
+    width: 45%;
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center; /* Sol tarafta hizalanması için */
+  }
+  
+  .PersonCard img {
+    width: 130px;
+    height: 130px;
+    margin-right: 10px;
+  }
+  
+  .PersonCard div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* İçerik alanını doldurması için */
+  }
+  
+  .PersonCard h3,
+  .PersonCard p {
+    margin: 0; /* Başlık ve paragraf arasındaki boşluğu kaldırır */
+  }
+  
+  .PersonCard button {
+    margin-top: 10px;
+    background-color: black;
+    color: #eed5d2;
+    width: 130px;
+    height: 30px;
+  }
+  
+  /* Edit ve Remove butonlarını yan yana konumlandırma */
+  .PersonCard div > div {
+    display: flex;
+    gap: 10px;
+  }
+
+  .input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%; 
+    max-width: 260px; 
+    height: 40px;
+    background: #eaeaea;
+    border-radius: 6px;
+    padding: 0 10px;
+  }
+  
+  .ButtonGroup {
+    display: flex;
+    gap: 10px;
+  }
+
+  .NewContact {
+    max-width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 450px;
+  }
+  
+  .NewContact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .NewContact div {
+    margin-bottom: 15px;
+  }
+  
+  .NewContact label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .NewContact input {
+    width: 90%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  
+  .NewContact button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    width: 90%;
+  }
+  
+  .NewContact button:hover {
+    background-color: #45a049;
+  }
+  
+  .Person{
+    margin-left: 80px;
+  }
+
+  
